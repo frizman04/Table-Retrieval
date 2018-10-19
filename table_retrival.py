@@ -85,19 +85,22 @@ def vectorize_tables(table_path,elma_path) :
 def retrive_in_table(table_path,table_vect_path,elma_path,question,table_index) :
 
     def vectorize_question(question,elma_path) :
-        elmo = hub.Module(elma_path, trainable=False)
+        tf.reset_default_graph()
 
+        elmo = hub.Module(elma_path, trainable=False)
         tokens_input = [word_tokenize(question)]
         tokens_length = [len(tok) for tok in tokens_input]
 
         feed_dict = {"tokens": tokens_input,"sequence_len": tokens_length}
         embeddings = elmo(inputs=feed_dict,signature="tokens", as_dict=True)["elmo"]
 
+        
         init = tf.global_variables_initializer()
+
         with tf.Session() as sess :
             sess.run(init)
             question_vect = embeddings.eval(session=sess)
-        print("Question was vectorized")
+        print("Question was vectorized \n ")
 
         question_vect = question_vect.mean(axis=1)
         return question_vect

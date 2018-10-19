@@ -81,6 +81,20 @@ def vectorize_tables(table_path,elma_path) :
     pickle.dump(table_vect,open(r'tmp/table_vect_dict.p','wb'))
 
 
+def _search_cell_index(question_vect,table_vect) :
+    """
+        Return more relevan cell indexes
+    """ 
+
+    cosin_sim = []
+    for row_indx in range(len(table_vect)) :
+        cosin_sim.append(cosine_similarity(question_vect,table_vect[row_indx])[0])
+    cosin_sim = np.array(cosin_sim)
+
+    # index = np.unravel_index(cosin_sim.argmax(), cosin_sim.shape)
+    indexes = np.dstack(np.unravel_index(np.argsort(cosin_sim.ravel())[::-1], cosin_sim.shape))
+    return indexes[:,:10,:]
+
 
 def retrive_in_table(table_path,table_vect_path,elma_path,question,table_index) :
 
@@ -105,51 +119,49 @@ def retrive_in_table(table_path,table_vect_path,elma_path,question,table_index) 
         question_vect = question_vect.mean(axis=1)
         return question_vect
 
-    def search_cell_index(question_vect,table_vect) :
-        cosin_sim = []
-        for row_indx in range(len(table_vect)) :
-            cosin_sim.append(cosine_similarity(question_vect,table_vect[row_indx])[0])
-        cosin_sim = np.array(cosin_sim)
-
-        index = np.unravel_index(cosin_sim.argmax(), cosin_sim.shape)
-        return index
-
     with open(table_vect_path,'rb') as f:
         table_dict = pickle.load(f)
 
     question_vect = vectorize_question(question,elma_path)
-    cell_indx = search_cell_index(question_vect,table_dict[table_index])
+    cell_indxes = _search_cell_index(question_vect,table_dict[table_index])
 
     with open(table_path,'r') as f:
         data = json.load(f)
+    
+    answeres = []
+    for cell_indx in cell_indxes[0] :
+        answer = data[table_index]['rows'][cell_indx[0]][cell_indx[1]]
+        answeres.append(answer)
 
-    answer = data[table_index]['rows'][cell_indx[0]][cell_indx[1]]
-    return answer,cell_indx
-
+    return answeres,cell_indxes
 
 
 def task_handler(args) :
     if args.vectorize_tables : vectorize_tables(args.table_path,args.elma)
     elif args.question : 
-        answer,cell_indx = retrive_in_table(args.table_path,args.table_vect_path,args.elma,args.question,args.table_index)
+        answeres,cell_indxes = retrive_in_table(args.table_path,args.table_vect_path,args.elma,args.question,args.table_index)
         
-        with open('out.txt') as f :
-            f.write(answer)
-            f.write(cell_indx)
+        with open('out.csv') as f :
+            for answer in answeres :
+                row_csv = ",".join([args.table_index,args.question,answer])
+                f.write(row_csv)    
 
-        print("Answer : %s" % answer)
-        print("Cell : %s" % cell_indx)
+        print("Answeres : %s" % answeres)
+        print("Celles : %s" % cell_indxes)
+
 
 def _get_elma_path() :
     if os.path.exists("model") and os.path.isdir("model") :
         if os.path.exists(r'model/oil-gas_epoches_n_13') :
-            elma = model/oil-gas_epoches_n_13
+            elma = r'model/oil-gas_epoches_n_13'
         else :
             elma = "http://files.deeppavlov.ai/deeppavlov_data/oil-gas_epoches_n_13.tar.gz"
     return elma
 
 
 if __name__ == "__main__" :
+
+
     parser = argparse.ArgumentParser(description = "Table retriv")
 
     parser.add_argument("--vectorize_tables",action="store_true" ,help = "Vectorize tables to search in them")

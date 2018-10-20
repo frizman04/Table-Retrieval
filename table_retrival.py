@@ -83,7 +83,7 @@ def vectorize_tables(table_path,elma_path) :
 
 def _search_cell_index(question_vect,table_vect) :
     """
-        Return more relevan cell indexes
+        Return more relevan cell indexes and there metrix
     """ 
 
     cosin_sim = []
@@ -93,7 +93,10 @@ def _search_cell_index(question_vect,table_vect) :
 
     # index = np.unravel_index(cosin_sim.argmax(), cosin_sim.shape)
     indexes = np.dstack(np.unravel_index(np.argsort(cosin_sim.ravel())[::-1], cosin_sim.shape))
-    return indexes[:,:10,:]
+    cosin_sim_sorted = np.sort(cosin_sim.ravel())[::-1]
+    
+    top = 10
+    return indexes[:,:top,:],cosin_sim_sorted[:top]
 
 
 def retrive_in_table(table_path,table_vect_path,elma_path,question,table_index) :
@@ -123,7 +126,7 @@ def retrive_in_table(table_path,table_vect_path,elma_path,question,table_index) 
         table_dict = pickle.load(f)
 
     question_vect = vectorize_question(question,elma_path)
-    cell_indxes = _search_cell_index(question_vect,table_dict[table_index])
+    cell_indxes,cosin_sim_ravel = _search_cell_index(question_vect,table_dict[table_index])
 
     with open(table_path,'r') as f:
         data = json.load(f)
@@ -133,21 +136,22 @@ def retrive_in_table(table_path,table_vect_path,elma_path,question,table_index) 
         answer = data[table_index]['rows'][cell_indx[0]][cell_indx[1]]
         answeres.append(answer)
 
-    return answeres,cell_indxes
+    return answeres,cell_indxes,cosin_sim_ravel
 
 
 def task_handler(args) :
     if args.vectorize_tables : vectorize_tables(args.table_path,args.elma)
     elif args.question : 
-        answeres,cell_indxes = retrive_in_table(args.table_path,args.table_vect_path,args.elma,args.question,args.table_index)
+        answeres,cell_indxes,cosin_sim = retrive_in_table(args.table_path,args.table_vect_path,args.elma,args.question,args.table_index)
         
         with open('out.csv') as f :
             for answer in answeres :
                 row_csv = ",".join([args.table_index,args.question,answer])
                 f.write(row_csv)    
 
-        print("Answeres : %s" % answeres)
-        print("Celles : %s" % cell_indxes)
+        print("%s %s" % (answeres,cosin_sim))
+
+
 
 
 def _get_elma_path() :

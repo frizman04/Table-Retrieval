@@ -18,7 +18,7 @@ from nltk.tokenize import word_tokenize
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-def vectorize_tables(table_path,elma_path) :
+def vectorize_tables(table_path,elma_path,table_vect_save_path = r'tmp/table_vect_dict.p') :
     print('Start table vectorizations')
 
     #load data
@@ -39,12 +39,15 @@ def vectorize_tables(table_path,elma_path) :
         for row_indx, row in enumerate(table['rows']) :
             for col_indx,col_name in enumerate(table['columns']) :
 
-                cell = row[col_indx]        
+                cell = " ".join(row)
+                title = table['title']
+                headerPathes = " ".join(table['headerPath'])
+
                 row_name = ''
                 if table['name_entity_col'] != None :
                     row_name = table['rows'][row_indx][table['name_entity_col']]
 
-                cell_full = " ".join([col_name, row_name, cell])
+                cell_full = " ".join([col_name, row_name, cell, title, headerPathes])
 
                 tokens = word_tokenize(cell_full.lower())
                 tokens_input.append(tokens)
@@ -78,7 +81,7 @@ def vectorize_tables(table_path,elma_path) :
         #save result
 
         table_vect_dict[table_indx] = table_vect
-    pickle.dump(table_vect,open(r'tmp/table_vect_dict.p','wb'))
+    pickle.dump(table_vect_dict,open(table_vect_save_path,'wb'))
 
 
 def _search_cell_index(question_vect,table_vect) :
@@ -99,33 +102,34 @@ def _search_cell_index(question_vect,table_vect) :
     return indexes[:,:top,:],cosin_sim_sorted[:top]
 
 
+def _vectorize_question(question,elma_path) :
+    tf.reset_default_graph()
+
+    elmo = hub.Module(elma_path, trainable=False)
+    tokens_input = [word_tokenize(question.lower())]
+    tokens_length = [len(tok) for tok in tokens_input]
+
+    feed_dict = {"tokens": tokens_input,"sequence_len": tokens_length}
+    embeddings = elmo(inputs=feed_dict,signature="tokens", as_dict=True)["elmo"]
+
+    
+    init = tf.global_variables_initializer()
+
+    with tf.Session() as sess :
+        sess.run(init)
+        question_vect = embeddings.eval(session=sess)
+    print("Question was vectorized \n ")
+
+    question_vect = question_vect.mean(axis=1)
+    return question_vect
+
+
 def retrive_in_table(table_path,table_vect_path,elma_path,question,table_index) :
-
-    def vectorize_question(question,elma_path) :
-        tf.reset_default_graph()
-
-        elmo = hub.Module(elma_path, trainable=False)
-        tokens_input = [word_tokenize(question)]
-        tokens_length = [len(tok) for tok in tokens_input]
-
-        feed_dict = {"tokens": tokens_input,"sequence_len": tokens_length}
-        embeddings = elmo(inputs=feed_dict,signature="tokens", as_dict=True)["elmo"]
-
-        
-        init = tf.global_variables_initializer()
-
-        with tf.Session() as sess :
-            sess.run(init)
-            question_vect = embeddings.eval(session=sess)
-        print("Question was vectorized \n ")
-
-        question_vect = question_vect.mean(axis=1)
-        return question_vect
 
     with open(table_vect_path,'rb') as f:
         table_dict = pickle.load(f)
 
-    question_vect = vectorize_question(question,elma_path)
+    question_vect = _vectorize_question(question,elma_path)
     cell_indxes,cosin_sim_ravel = _search_cell_index(question_vect,table_dict[table_index])
 
     with open(table_path,'r') as f:
@@ -171,7 +175,7 @@ if __name__ == "__main__" :
     parser.add_argument("--vectorize_tables",action="store_true" ,help = "Vectorize tables to search in them")
 
     parser.add_argument("--table_path",help="Path to tables dataset",default=r"corrected_tables_v2.json")
-    parser.add_argument("--table_vect_path",help="Path to pretrain table",default= r"tmp/table_vec_dict.p")
+    parser.add_argument("--table_vect_path",help="Path to pretrain table",default= r"tmp/table_vect_dict_row_withtitleheader.p")
     parser.add_argument("--question")
     parser.add_argument("--table_index")
     parser.add_argument("--elma", help="Path to elma", default = _get_elma_path())

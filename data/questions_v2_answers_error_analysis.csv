@@ -1,0 +1,438 @@
+,table_index,question,correct_answer,possible_answer,cos_sim
+0,0,What is the feedstock for Sulphur recovery for Hydrocarbon in kmol/hr?,22,"22
+",0.547123908996582
+1,0,What is the feedstock for Sulphur recovery for Hydrocarbon in kmol/hr?,22,Hydrocarbon (as C1) ,0.5260725021362305
+2,0,What is the feedstock for Sulphur recovery for Hydrocarbon in kmol/hr?,22,,0.5095517635345459
+3,0,What is the feedstock for Sulphur recovery for Hydrocarbon in kmol/hr?,22,1% ,0.508769154548645
+4,0,What is the feedstock for Sulphur recovery for Hydrocarbon in kmol/hr?,22,H2S ,0.4493067264556885
+5,0,What is the feedstock for Sulphur recovery for Hydrocarbon in kmol/hr?,22,60% ,0.434950590133667
+6,0,What is the feedstock for Sulphur recovery for Hydrocarbon in kmol/hr?,22,"1300
+",0.4298540949821472
+7,0,What is the feedstock for Sulphur recovery for Hydrocarbon in kmol/hr?,22,"195
+",0.41842636466026306
+8,0,What is the feedstock for Sulphur recovery for Hydrocarbon in kmol/hr?,22,9% ,0.41501349210739136
+9,0,What is the feedstock for Sulphur recovery for Hydrocarbon in kmol/hr?,22,H2O ,0.40662989020347595
+10,0,Which component has a minimum  Sulphur Recovery feedstock?,Hydrocarbon (as C1),Hydrocarbon (as C1) ,0.43921616673469543
+11,0,Which component has a minimum  Sulphur Recovery feedstock?,Hydrocarbon (as C1),"22
+",0.4240357279777527
+12,0,Which component has a minimum  Sulphur Recovery feedstock?,Hydrocarbon (as C1),H2S ,0.42225587368011475
+13,0,Which component has a minimum  Sulphur Recovery feedstock?,Hydrocarbon (as C1),Total ,0.41432371735572815
+14,0,Which component has a minimum  Sulphur Recovery feedstock?,Hydrocarbon (as C1),,0.4098951816558838
+15,0,Which component has a minimum  Sulphur Recovery feedstock?,Hydrocarbon (as C1),1% ,0.40604934096336365
+16,0,Which component has a minimum  Sulphur Recovery feedstock?,Hydrocarbon (as C1),H2O ,0.3865020275115967
+17,0,Which component has a minimum  Sulphur Recovery feedstock?,Hydrocarbon (as C1),CO2 ,0.3815220296382904
+18,0,Which component has a minimum  Sulphur Recovery feedstock?,Hydrocarbon (as C1),100% ,0.36774882674217224
+19,0,Which component has a minimum  Sulphur Recovery feedstock?,Hydrocarbon (as C1),60% ,0.3671286106109619
+20,1,What is the consumed power in Sulphur Recovery train for  Amine Pumps in 99.3% SRE?,83 kW,N/A ,0.5239004492759705
+21,1,What is the consumed power in Sulphur Recovery train for  Amine Pumps in 99.3% SRE?,83 kW,"12,266 kW ",0.5224215984344482
+22,1,What is the consumed power in Sulphur Recovery train for  Amine Pumps in 99.3% SRE?,83 kW,"18,610 kW ",0.5194735527038574
+23,1,What is the consumed power in Sulphur Recovery train for  Amine Pumps in 99.3% SRE?,83 kW,N/A ,0.5168091654777527
+24,1,What is the consumed power in Sulphur Recovery train for  Amine Pumps in 99.3% SRE?,83 kW,"86,820 kW 
+",0.5117155313491821
+25,1,What is the consumed power in Sulphur Recovery train for  Amine Pumps in 99.3% SRE?,83 kW,N/A ,0.5011847615242004
+26,1,What is the consumed power in Sulphur Recovery train for  Amine Pumps in 99.3% SRE?,83 kW,N/A ,0.49855226278305054
+27,1,What is the consumed power in Sulphur Recovery train for  Amine Pumps in 99.3% SRE?,83 kW,,0.4983963370323181
+28,1,What is the consumed power in Sulphur Recovery train for  Amine Pumps in 99.3% SRE?,83 kW,"2,677 kW ",0.4983244240283966
+29,1,What is the consumed power in Sulphur Recovery train for  Amine Pumps in 99.3% SRE?,83 kW,Regenerator Reboiler ,0.4949960708618164
+30,2,What is the total feedstock for Sulphur recovery for benchmark plant (in kmol/hr)?,2167,"22 
+",0.5438412427902222
+31,2,What is the total feedstock for Sulphur recovery for benchmark plant (in kmol/hr)?,2167,Hydrocarbon (as C1) ,0.5198426842689514
+32,2,What is the total feedstock for Sulphur recovery for benchmark plant (in kmol/hr)?,2167,,0.5198426842689514
+33,2,What is the total feedstock for Sulphur recovery for benchmark plant (in kmol/hr)?,2167,1% ,0.5103005170822144
+34,2,What is the total feedstock for Sulphur recovery for benchmark plant (in kmol/hr)?,2167,"2,167 
+",0.45650431513786316
+35,2,What is the total feedstock for Sulphur recovery for benchmark plant (in kmol/hr)?,2167,"1,300 
+",0.4393751621246338
+36,2,What is the total feedstock for Sulphur recovery for benchmark plant (in kmol/hr)?,2167,100% ,0.4366123080253601
+37,2,What is the total feedstock for Sulphur recovery for benchmark plant (in kmol/hr)?,2167,0.69 ,0.4336904287338257
+38,2,What is the total feedstock for Sulphur recovery for benchmark plant (in kmol/hr)?,2167,"
+",0.4276992082595825
+39,2,What is the total feedstock for Sulphur recovery for benchmark plant (in kmol/hr)?,2167,60% ,0.4260600805282593
+40,3,What is an energy balance for Acid Gas Preheater for case A in Benchmark Plant?,-3994,"-8,683 
+",0.49779316782951355
+41,3,What is an energy balance for Acid Gas Preheater for case A in Benchmark Plant?,-3994,--,0.4974823296070099
+42,3,What is an energy balance for Acid Gas Preheater for case A in Benchmark Plant?,-3994,--,0.49721044301986694
+43,3,What is an energy balance for Acid Gas Preheater for case A in Benchmark Plant?,-3994,--,0.49705493450164795
+44,3,What is an energy balance for Acid Gas Preheater for case A in Benchmark Plant?,-3994,--,0.4962575137615204
+45,3,What is an energy balance for Acid Gas Preheater for case A in Benchmark Plant?,-3994,Lean Amine Trim Cooler ,0.4932386577129364
+46,3,What is an energy balance for Acid Gas Preheater for case A in Benchmark Plant?,-3994,4th Sulphur Condenser ,0.4925333857536316
+47,3,What is an energy balance for Acid Gas Preheater for case A in Benchmark Plant?,-3994,Quench Water Trim Cooler ,0.49215155839920044
+48,3,What is an energy balance for Acid Gas Preheater for case A in Benchmark Plant?,-3994,"-17,366 ",0.49102291464805603
+49,3,What is an energy balance for Acid Gas Preheater for case A in Benchmark Plant?,-3994,"-4,969 
+",0.4905553460121155
+50,3,What is an energy balance of benchmark plant for case E for Lean Amine Trim Cooler?,-9937,Lean Amine Trim Cooler ,0.542686939239502
+51,3,What is an energy balance of benchmark plant for case E for Lean Amine Trim Cooler?,-9937,"-4,969 
+",0.5302681922912598
+52,3,What is an energy balance of benchmark plant for case E for Lean Amine Trim Cooler?,-9937,--,0.5286814570426941
+53,3,What is an energy balance of benchmark plant for case E for Lean Amine Trim Cooler?,-9937,Quench Water Trim Cooler ,0.5263633728027344
+54,3,What is an energy balance of benchmark plant for case E for Lean Amine Trim Cooler?,-9937,--,0.5257809162139893
+55,3,What is an energy balance of benchmark plant for case E for Lean Amine Trim Cooler?,-9937,--,0.5227984189987183
+56,3,What is an energy balance of benchmark plant for case E for Lean Amine Trim Cooler?,-9937,--,0.5219805240631104
+57,3,What is an energy balance of benchmark plant for case E for Lean Amine Trim Cooler?,-9937,"-9,937 ",0.5208332538604736
+58,3,What is an energy balance of benchmark plant for case E for Lean Amine Trim Cooler?,-9937,--,0.5206348896026611
+59,3,What is an energy balance of benchmark plant for case E for Lean Amine Trim Cooler?,-9937,--,0.5155173540115356
+60,3,What is Net Energy Import / Export difference for case A  for benchmark plant?,56603,Net Energy Import/Export ,0.49767616391181946
+61,3,What is Net Energy Import / Export difference for case A  for benchmark plant?,56603,"-114% 
+",0.4904443025588989
+62,3,What is Net Energy Import / Export difference for case A  for benchmark plant?,56603,-219% ,0.4903715252876282
+63,3,What is Net Energy Import / Export difference for case A  for benchmark plant?,56603,--,0.48962339758872986
+64,3,What is Net Energy Import / Export difference for case A  for benchmark plant?,56603,-2% ,0.4885689616203308
+65,3,What is Net Energy Import / Export difference for case A  for benchmark plant?,56603,Comparison to Case A (Net ) ,0.48807910084724426
+66,3,What is Net Energy Import / Export difference for case A  for benchmark plant?,56603,-44% ,0.4852479100227356
+67,3,What is Net Energy Import / Export difference for case A  for benchmark plant?,56603,"-7,889 
+",0.4852205514907837
+68,3,What is Net Energy Import / Export difference for case A  for benchmark plant?,56603,"+55,443 ",0.48036497831344604
+69,3,What is Net Energy Import / Export difference for case A  for benchmark plant?,56603,-31% ,0.48014187812805176
+70,4,Value of kWh per metric ton for case A 99.0%,1400,kWh per Metric Ton of ‘S’ Produced ,0.7277480363845825
+71,4,Value of kWh per metric ton for case A 99.0%,1400,+764 ,0.7063771486282349
+72,4,Value of kWh per metric ton for case A 99.0%,1400,"-189 
+",0.7051016092300415
+73,4,Value of kWh per metric ton for case A 99.0%,1400,"+1,434 ",0.7042281627655029
+74,4,Value of kWh per metric ton for case A 99.0%,1400,"-1,612 ",0.7037332057952881
+75,4,Value of kWh per metric ton for case A 99.0%,1400,+949 ,0.7006582617759705
+76,4,Value of kWh per metric ton for case A 99.0%,1400,"+1,400 ",0.6872125864028931
+77,4,Value of kWh per metric ton for case A 99.0%,1400,3 kWh per Nm H2S in Acid Gas Feed ,0.6540008783340454
+78,4,Value of kWh per metric ton for case A 99.0%,1400,"-0.27 
+",0.648676872253418
+79,4,Value of kWh per metric ton for case A 99.0%,1400,+1.90 ,0.6457311511039734
+80,5,Get equipment number for Oxidation Air Heater,7E-0342,7E-311 ,0.5420930981636047
+81,5,Get equipment number for Oxidation Air Heater,7E-0342,7E-0342 ,0.5335139632225037
+82,5,Get equipment number for Oxidation Air Heater,7E-0342,Process Air Preheater ,0.5304995179176331
+83,5,Get equipment number for Oxidation Air Heater,7E-0342,Oxidation Air Heater ,0.5293935537338257
+84,5,Get equipment number for Oxidation Air Heater,7E-0342,7E-309 ,0.5099139213562012
+85,5,Get equipment number for Oxidation Air Heater,7E-0342,7E-308 ,0.5045342445373535
+86,5,Get equipment number for Oxidation Air Heater,7E-0342,7E-310 ,0.49815505743026733
+87,5,Get equipment number for Oxidation Air Heater,7E-0342,7E-306,0.49784165620803833
+88,5,Get equipment number for Oxidation Air Heater,7E-0342,No. 3 Reheater ,0.4963798522949219
+89,5,Get equipment number for Oxidation Air Heater,7E-0342,7E-0341 ,0.4939002990722656
+90,5,Is Acid Gas Preheater power producer or consumer?,Consumer,Consumer ,0.6214441061019897
+91,5,Is Acid Gas Preheater power producer or consumer?,Consumer,Consumer ,0.5901660323143005
+92,5,Is Acid Gas Preheater power producer or consumer?,Consumer,Consumer ,0.5897595882415771
+93,5,Is Acid Gas Preheater power producer or consumer?,Consumer,Consumer ,0.5784143805503845
+94,5,Is Acid Gas Preheater power producer or consumer?,Consumer,Consumer ,0.5576509833335876
+95,5,Is Acid Gas Preheater power producer or consumer?,Consumer,Consumer ,0.5407687425613403
+96,5,Is Acid Gas Preheater power producer or consumer?,Consumer,Producer ,0.5387920141220093
+97,5,Is Acid Gas Preheater power producer or consumer?,Consumer,Consumer ,0.5305837392807007
+98,5,Is Acid Gas Preheater power producer or consumer?,Consumer,Producer ,0.5282984375953674
+99,5,Is Acid Gas Preheater power producer or consumer?,Consumer,Consumer ,0.5277575254440308
+100,6,What is the property of HP Steam for existing plant?,"60 barg, superheated to 434 °C",Electric motor drive ,0.5177284479141235
+101,6,What is the property of HP Steam for existing plant?,"60 barg, superheated to 434 °C",N/A (natural draft) ,0.5175951719284058
+102,6,What is the property of HP Steam for existing plant?,"60 barg, superheated to 434 °C","Steam turbine drive (superheated HP steam) 
+",0.5101325511932373
+103,6,What is the property of HP Steam for existing plant?,"60 barg, superheated to 434 °C","Steam turbine drive (superheated HP steam) 
+",0.505957305431366
+104,6,What is the property of HP Steam for existing plant?,"60 barg, superheated to 434 °C",No ,0.5042973756790161
+105,6,What is the property of HP Steam for existing plant?,"60 barg, superheated to 434 °C","Yes; produces HP steam 
+",0.499782532453537
+106,6,What is the property of HP Steam for existing plant?,"60 barg, superheated to 434 °C","SL steam produced in No. 1, 2 and 3 Condensers; BFW preheating in No. 4 and 5 Condensers 
+",0.49070286750793457
+107,6,What is the property of HP Steam for existing plant?,"60 barg, superheated to 434 °C","SL steam produced in No. 1, 2 and 3 Condensers; closed loop steam production / condensation in No. 4 and 5 Condensers ",0.4902527928352356
+108,6,What is the property of HP Steam for existing plant?,"60 barg, superheated to 434 °C",Incinerator Air Blower Drive ,0.4901144802570343
+109,6,What is the property of HP Steam for existing plant?,"60 barg, superheated to 434 °C",Main Air Blower ,0.48865142464637756
+110,6,What is main Air Blower for fully optimized plant?,Steam turbine drive (superheated HP steam),"Steam turbine drive (superheated HP steam) 
+",0.5451087951660156
+111,6,What is main Air Blower for fully optimized plant?,Steam turbine drive (superheated HP steam),"Steam turbine drive (superheated HP steam) 
+",0.5085152387619019
+112,6,What is main Air Blower for fully optimized plant?,Steam turbine drive (superheated HP steam),Electric motor drive ,0.5047770738601685
+113,6,What is main Air Blower for fully optimized plant?,Steam turbine drive (superheated HP steam),"Produces HP steam 
+",0.5039935111999512
+114,6,What is main Air Blower for fully optimized plant?,Steam turbine drive (superheated HP steam),"Yes; produces HP steam 
+",0.49762582778930664
+115,6,What is main Air Blower for fully optimized plant?,Steam turbine drive (superheated HP steam),Main Air Blower ,0.4884144067764282
+116,6,What is main Air Blower for fully optimized plant?,Steam turbine drive (superheated HP steam),N/A (natural draft) ,0.47107043862342834
+117,6,What is main Air Blower for fully optimized plant?,Steam turbine drive (superheated HP steam),"40 barg, saturated 
+",0.46207451820373535
+118,6,What is main Air Blower for fully optimized plant?,Steam turbine drive (superheated HP steam),Incinerator Air Blower Drive ,0.45459890365600586
+119,6,What is main Air Blower for fully optimized plant?,Steam turbine drive (superheated HP steam),"-
+",0.4478273391723633
+120,6,What is produced by SRU WHB for existing plant?,Produces SA steam,No ,0.5139374732971191
+121,6,What is produced by SRU WHB for existing plant?,Produces SA steam,"Yes; produces HP steam 
+",0.5060506463050842
+122,6,What is produced by SRU WHB for existing plant?,Produces SA steam,Produces SA steam ,0.492823988199234
+123,6,What is produced by SRU WHB for existing plant?,Produces SA steam,"SL steam produced in No. 1, 2 and 3 Condensers; closed loop steam production / condensation in No. 4 and 5 Condensers ",0.489208459854126
+124,6,What is produced by SRU WHB for existing plant?,Produces SA steam,"SL steam produced in No. 1, 2 and 3 Condensers; BFW preheating in No. 4 and 5 Condensers 
+",0.4885096549987793
+125,6,What is produced by SRU WHB for existing plant?,Produces SA steam,"Produces HP steam 
+",0.4866217374801636
+126,6,What is produced by SRU WHB for existing plant?,Produces SA steam,N/A (natural draft) ,0.47137871384620667
+127,6,What is produced by SRU WHB for existing plant?,Produces SA steam,"-
+",0.4706101715564728
+128,6,What is produced by SRU WHB for existing plant?,Produces SA steam,"Steam turbine drive (superheated HP steam) 
+",0.46886056661605835
+129,6,What is produced by SRU WHB for existing plant?,Produces SA steam,Sulphur Condensers ,0.4684073030948639
+130,7,What is an energy balance for No. 1 Reheater by design?,-1782,"-1,308 
+",0.5325114727020264
+131,7,What is an energy balance for No. 1 Reheater by design?,-1782,"-1,138 
+",0.5252686738967896
+132,7,What is an energy balance for No. 1 Reheater by design?,-1782,"-1,782 ",0.5226380825042725
+133,7,What is an energy balance for No. 1 Reheater by design?,-1782,"-1,559 
+",0.5189199447631836
+134,7,What is an energy balance for No. 1 Reheater by design?,-1782,"-1,290 ",0.5177059173583984
+135,7,What is an energy balance for No. 1 Reheater by design?,-1782,"-1,310 ",0.5143559575080872
+136,7,What is an energy balance for No. 1 Reheater by design?,-1782,"+2,467 
+",0.5125020742416382
+137,7,What is an energy balance for No. 1 Reheater by design?,-1782,"-1,133 ",0.5120443105697632
+138,7,What is an energy balance for No. 1 Reheater by design?,-1782,"+4,458 
+",0.5116860270500183
+139,7,What is an energy balance for No. 1 Reheater by design?,-1782,"-1,291 ",0.5113677978515625
+140,7,What is an actual energy balance for 7E-309 Reheater?,-1481,"-1,308 
+",0.5001048445701599
+141,7,What is an actual energy balance for 7E-309 Reheater?,-1481,"-1,138 
+",0.4962366223335266
+142,7,What is an actual energy balance for 7E-309 Reheater?,-1481,"+28,501 
+",0.49324724078178406
+143,7,What is an actual energy balance for 7E-309 Reheater?,-1481,"+13,469 
+",0.48745694756507874
+144,7,What is an actual energy balance for 7E-309 Reheater?,-1481,"+2,467 
+",0.4835859537124634
+145,7,What is an actual energy balance for 7E-309 Reheater?,-1481,"+4,458 
+",0.47890323400497437
+146,7,What is an actual energy balance for 7E-309 Reheater?,-1481,"-1,559 
+",0.47635960578918457
+147,7,What is an actual energy balance for 7E-309 Reheater?,-1481,"-1,290 ",0.47376593947410583
+148,7,What is an actual energy balance for 7E-309 Reheater?,-1481,"-1,291 ",0.47278887033462524
+149,7,What is an actual energy balance for 7E-309 Reheater?,-1481,"-1,423 ",0.4712303578853607
+150,7,What is an energy balance for fully optimized plant for Incinerator WHB?,13469,"+13,469 
+",0.5863943099975586
+151,7,What is an energy balance for fully optimized plant for Incinerator WHB?,13469,"-831 
+",0.5191968083381653
+152,7,What is an energy balance for fully optimized plant for Incinerator WHB?,13469,"
+",0.5172655582427979
+153,7,What is an energy balance for fully optimized plant for Incinerator WHB?,13469,"
+",0.5066810846328735
+154,7,What is an energy balance for fully optimized plant for Incinerator WHB?,13469,"+28,501 
+",0.498540997505188
+155,7,What is an energy balance for fully optimized plant for Incinerator WHB?,13469,--,0.4978860914707184
+156,7,What is an energy balance for fully optimized plant for Incinerator WHB?,13469,--,0.4934837520122528
+157,7,What is an energy balance for fully optimized plant for Incinerator WHB?,13469,"-962 
+",0.49262887239456177
+158,7,What is an energy balance for fully optimized plant for Incinerator WHB?,13469,--,0.48880231380462646
+159,7,What is an energy balance for fully optimized plant for Incinerator WHB?,13469,"
+",0.4876055121421814
+160,7,What is expected net energy import / export?,8528,"+8,528 ",0.5953388214111328
+161,7,What is expected net energy import / export?,8528,"-1,217 ",0.5681338906288147
+162,7,What is expected net energy import / export?,8528,NET ENERGY IMPORT/EXPORT ,0.5618472099304199
+163,7,What is expected net energy import / export?,8528,"+28,501 
+",0.5517097115516663
+164,7,What is expected net energy import / export?,8528,"+7,511 ",0.5396444797515869
+165,7,What is expected net energy import / export?,8528,,0.46826714277267456
+166,7,What is expected net energy import / export?,8528,,0.43756720423698425
+167,7,What is expected net energy import / export?,8528,,0.43097761273384094
+168,7,What is expected net energy import / export?,8528,,0.42987778782844543
+169,7,What is expected net energy import / export?,8528,,0.42615777254104614
+170,8,What is an energy balance in TGTU by design?,-50535,"-84,080 ",0.32428258657455444
+171,8,What is an energy balance in TGTU by design?,-50535,"-36,008 ",0.312948614358902
+172,8,What is an energy balance in TGTU by design?,-50535,"-50,535 ",0.3100247085094452
+173,8,What is an energy balance in TGTU by design?,-50535,"-17,064 
+",0.30796852707862854
+174,8,What is an energy balance in TGTU by design?,-50535,"-26,986 
+",0.30071204900741577
+175,8,What is an energy balance in TGTU by design?,-50535,"-28,508 ",0.298273503780365
+176,8,What is an energy balance in TGTU by design?,-50535,"+57,181 ",0.2876410484313965
+177,8,What is an energy balance in TGTU by design?,-50535,,0.2845534086227417
+178,8,What is an energy balance in TGTU by design?,-50535,INCINERATOR ,0.2845534086227417
+179,8,What is an energy balance in TGTU by design?,-50535,"+49,331 
+",0.2699252963066101
+180,8,What is the actual net energy balance for real world plant?,-20543,"-36,008 ",0.4092504382133484
+181,8,What is the actual net energy balance for real world plant?,-20543,"-20,543 ",0.39735615253448486
+182,8,What is the actual net energy balance for real world plant?,-20543,"-28,508 ",0.38936927914619446
+183,8,What is the actual net energy balance for real world plant?,-20543,"-17,064 
+",0.3887568712234497
+184,8,What is the actual net energy balance for real world plant?,-20543," -77,434 ",0.375644326210022
+185,8,What is the actual net energy balance for real world plant?,-20543,"+5,281 
+",0.37523704767227173
+186,8,What is the actual net energy balance for real world plant?,-20543,"-84,080 ",0.36273273825645447
+187,8,What is the actual net energy balance for real world plant?,-20543,"-26,986 
+",0.3611069321632385
+188,8,What is the actual net energy balance for real world plant?,-20543,"+43,973 ",0.35149502754211426
+189,8,What is the actual net energy balance for real world plant?,-20543,NET,0.33987340331077576
+190,9,Requirements for storage period more than 6 month,• Store in accordance with the short-term action items. • Store in accordance with ITT’s Long Term Storage Procedure. Contact ITT to obtain this procedure.,"• Store in accordance with the short-term action items. • Store in accordance with ITT’s Long Term Storage Procedure. Contact ITT to obtain this procedure. 
+",0.6733052134513855
+191,9,Requirements for storage period more than 6 month,• Store in accordance with the short-term action items. • Store in accordance with ITT’s Long Term Storage Procedure. Contact ITT to obtain this procedure.,More than 6 months ,0.6719222068786621
+192,9,Requirements for storage period more than 6 month,• Store in accordance with the short-term action items. • Store in accordance with ITT’s Long Term Storage Procedure. Contact ITT to obtain this procedure.,Less than 6 months ,0.5050499439239502
+193,9,Requirements for storage period more than 6 month,• Store in accordance with the short-term action items. • Store in accordance with ITT’s Long Term Storage Procedure. Contact ITT to obtain this procedure.,"• Do not expose the valve to direct sunlight. • Do not expose the valve to weather conditions. • Do not expose the valve to temperature extremes. • Do not stack the valves on top of each other. • Make sure the gate is in the full-open position. 
+",0.49539846181869507
+194,9,"What are storage, disposal and return requirements, if the valve is stored less than 6 month?",• Do not expose the valve to direct sunlight. • Do not expose the valve to weather conditions. • Do not expose the valve to temperature extremes. • Do not stack the valves on top of each other. • Make sure the gate is in the full-open position.,More than 6 months ,0.6542800664901733
+195,9,"What are storage, disposal and return requirements, if the valve is stored less than 6 month?",• Do not expose the valve to direct sunlight. • Do not expose the valve to weather conditions. • Do not expose the valve to temperature extremes. • Do not stack the valves on top of each other. • Make sure the gate is in the full-open position.,"• Store in accordance with the short-term action items. • Store in accordance with ITT’s Long Term Storage Procedure. Contact ITT to obtain this procedure. 
+",0.648638129234314
+196,9,"What are storage, disposal and return requirements, if the valve is stored less than 6 month?",• Do not expose the valve to direct sunlight. • Do not expose the valve to weather conditions. • Do not expose the valve to temperature extremes. • Do not stack the valves on top of each other. • Make sure the gate is in the full-open position.,Less than 6 months ,0.5463106632232666
+197,9,"What are storage, disposal and return requirements, if the valve is stored less than 6 month?",• Do not expose the valve to direct sunlight. • Do not expose the valve to weather conditions. • Do not expose the valve to temperature extremes. • Do not stack the valves on top of each other. • Make sure the gate is in the full-open position.,"• Do not expose the valve to direct sunlight. • Do not expose the valve to weather conditions. • Do not expose the valve to temperature extremes. • Do not stack the valves on top of each other. • Make sure the gate is in the full-open position. 
+",0.5262004137039185
+198,10,"How to install the valve, if it is Handweel-operated?",Requires no further action,gear-operated ,0.5931236147880554
+199,10,"How to install the valve, if it is Handweel-operated?",Requires no further action,Electric-operated ,0.5733617544174194
+200,10,"How to install the valve, if it is Handweel-operated?",Requires no further action,Handwheel-operated or Bevel,0.5524700880050659
+201,10,"How to install the valve, if it is Handweel-operated?",Requires no further action,Air Cylinder-operated ,0.5233570337295532
+202,10,"How to install the valve, if it is Handweel-operated?",Requires no further action,,0.5188463926315308
+203,10,"How to install the valve, if it is Handweel-operated?",Requires no further action,,0.5117837190628052
+204,10,"How to install the valve, if it is Handweel-operated?",Requires no further action,Hydraulic Cylinder-operated ,0.508877158164978
+205,10,"How to install the valve, if it is Handweel-operated?",Requires no further action,"(standard configured valve required pressure is 600–1000 psi) 
+",0.46291908621788025
+206,10,"How to install the valve, if it is Handweel-operated?",Requires no further action,"Connect electric supply according to manufacturers instructions 
+",0.4587133824825287
+207,10,"How to install the valve, if it is Handweel-operated?",Requires no further action,"Requires no further action 
+",0.45846468210220337
+208,10,"How to install the valve, if it is electric-operated?",Connect electric supply according to manufacturers instructions,gear-operated ,0.6193100214004517
+209,10,"How to install the valve, if it is electric-operated?",Connect electric supply according to manufacturers instructions,Electric-operated ,0.6043012142181396
+210,10,"How to install the valve, if it is electric-operated?",Connect electric supply according to manufacturers instructions,Handwheel-operated or Bevel,0.5687737464904785
+211,10,"How to install the valve, if it is electric-operated?",Connect electric supply according to manufacturers instructions,,0.5524876117706299
+212,10,"How to install the valve, if it is electric-operated?",Connect electric supply according to manufacturers instructions,,0.5445009469985962
+213,10,"How to install the valve, if it is electric-operated?",Connect electric supply according to manufacturers instructions,Air Cylinder-operated ,0.5385396480560303
+214,10,"How to install the valve, if it is electric-operated?",Connect electric supply according to manufacturers instructions,Hydraulic Cylinder-operated ,0.5331947803497314
+215,10,"How to install the valve, if it is electric-operated?",Connect electric supply according to manufacturers instructions,"(standard configured valve required pressure is 600–1000 psi) 
+",0.4912002682685852
+216,10,"How to install the valve, if it is electric-operated?",Connect electric supply according to manufacturers instructions,"valve required pressure is 60–100 psi) 
+",0.48781222105026245
+217,10,"How to install the valve, if it is electric-operated?",Connect electric supply according to manufacturers instructions,"Connect electric supply according to manufacturers instructions 
+",0.484561949968338
+218,11,What to do if a problem found in external valve parts?,• Replace the affected partsn• Contact ITT to obtain replacement parts or for specific instructions,Excessive wear or corrosion ,0.6477615833282471
+219,11,What to do if a problem found in external valve parts?,• Replace the affected partsn• Contact ITT to obtain replacement parts or for specific instructions,"""• Replace the affected parts
+",0.6238517165184021
+220,11,What to do if a problem found in external valve parts?,• Replace the affected partsn• Contact ITT to obtain replacement parts or for specific instructions,External valve parts ,0.5499842166900635
+221,12,What lubricant type should I use for Chevron equipment?,Industrial Grease-Medium,"C5-A Compound 
+",0.4104643762111664
+222,12,What lubricant type should I use for Chevron equipment?,Industrial Grease-Medium,"Industrial Grease-Medium 
+",0.40821194648742676
+223,12,What lubricant type should I use for Chevron equipment?,Industrial Grease-Medium,"Molytex Grease #2 
+",0.39530810713768005
+224,12,What lubricant type should I use for Chevron equipment?,Industrial Grease-Medium,Texaco ,0.3581330180168152
+225,12,What lubricant type should I use for Chevron equipment?,Industrial Grease-Medium,Chevron ,0.35140955448150635
+226,12,What lubricant type should I use for Chevron equipment?,Industrial Grease-Medium,Fel-Pro ,0.3318806290626526
+227,12,What lubricant type should I use for Chevron equipment?,Industrial Grease-Medium,"XL 47-F2-75 
+",0.32934144139289856
+228,12,What lubricant type should I use for Chevron equipment?,Industrial Grease-Medium,Moly ,0.2608966827392578
+229,12,What is the acceptable lubricant type for Moly valve?,XL 47-F2-75,"C5-A Compound 
+",0.49096283316612244
+230,12,What is the acceptable lubricant type for Moly valve?,XL 47-F2-75,"Molytex Grease #2 
+",0.47708216309547424
+231,12,What is the acceptable lubricant type for Moly valve?,XL 47-F2-75,"XL 47-F2-75 
+",0.4421807527542114
+232,12,What is the acceptable lubricant type for Moly valve?,XL 47-F2-75,Texaco ,0.4381161034107208
+233,12,What is the acceptable lubricant type for Moly valve?,XL 47-F2-75,"Industrial Grease-Medium 
+",0.4177356958389282
+234,12,What is the acceptable lubricant type for Moly valve?,XL 47-F2-75,Fel-Pro ,0.4043874740600586
+235,12,What is the acceptable lubricant type for Moly valve?,XL 47-F2-75,Moly ,0.36307570338249207
+236,12,What is the acceptable lubricant type for Moly valve?,XL 47-F2-75,Chevron ,0.3379240334033966
+237,13,How to replace the seal in handweel actuated valve?,Loosen the stroke adjuster and turn the handwheel to close the valve,Handwheel actuated ,0.6691595315933228
+238,13,How to replace the seal in handweel actuated valve?,Loosen the stroke adjuster and turn the handwheel to close the valve,"Loosen the stroke adjuster and turn the handwheel to close the valve 
+",0.6332836747169495
+239,13,How to replace the seal in handweel actuated valve?,Loosen the stroke adjuster and turn the handwheel to close the valve,Cylinder actuated ,0.6146597862243652
+240,13,How to replace the seal in handweel actuated valve?,Loosen the stroke adjuster and turn the handwheel to close the valve,"Turning the gate clamp perpendicular to the gate 
+",0.5791419744491577
+241,13,What is the seal replacement method for Cylinder actuated valve?,Turning the gate clamp perpendicular to the gate,Handwheel actuated ,0.6148329377174377
+242,13,What is the seal replacement method for Cylinder actuated valve?,Turning the gate clamp perpendicular to the gate,Cylinder actuated ,0.5979394912719727
+243,13,What is the seal replacement method for Cylinder actuated valve?,Turning the gate clamp perpendicular to the gate,"Loosen the stroke adjuster and turn the handwheel to close the valve 
+",0.5747857689857483
+244,13,What is the seal replacement method for Cylinder actuated valve?,Turning the gate clamp perpendicular to the gate,"Turning the gate clamp perpendicular to the gate 
+",0.5643644332885742
+245,14,How to set the stroke for 50-100 DN valve?,Does the lockout pin pass through the gateclamp?,2–4 in. (50–100 DN) ,0.5942562818527222
+246,14,How to set the stroke for 50-100 DN valve?,Does the lockout pin pass through the gateclamp?,"Does the lockout pin pass through the gateclamp? 
+",0.5790520906448364
+247,14,How to set the stroke for 50-100 DN valve?,Does the lockout pin pass through the gateclamp?,6 in. (DN 150) and above ,0.5551062822341919
+248,14,How to set the stroke for 50-100 DN valve?,Does the lockout pin pass through the gateclamp?,"Does the lockout pin pass over the top of thegate? 
+",0.544122576713562
+249,14,How to set the stroke for 6 in. and above valve?,Does the lockout pin pass over the top of thegate?,2–4 in. (50–100 DN) ,0.6680214405059814
+250,14,How to set the stroke for 6 in. and above valve?,Does the lockout pin pass over the top of thegate?,6 in. (DN 150) and above ,0.6672871112823486
+251,14,How to set the stroke for 6 in. and above valve?,Does the lockout pin pass over the top of thegate?,"Does the lockout pin pass over the top of thegate? 
+",0.653872013092041
+252,14,How to set the stroke for 6 in. and above valve?,Does the lockout pin pass over the top of thegate?,"Does the lockout pin pass through the gateclamp? 
+",0.6437536478042603
+253,15,What is the cause if the fully-closed valve is leaking?,The seat or gate is damaged.,The fully-closed valve is leaking past the seat. ,0.6413851976394653
+254,15,What is the cause if the fully-closed valve is leaking?,The seat or gate is damaged.,The seal is not compressed correctly. ,0.6369342803955078
+255,15,What is the cause if the fully-closed valve is leaking?,The seat or gate is damaged.,"See Lubrication requirements in the Maintenance section. 
+",0.6262138485908508
+256,15,What is the cause if the fully-closed valve is leaking?,The seat or gate is damaged.,"Set the stroke. 
+",0.6261838674545288
+257,15,What is the cause if the fully-closed valve is leaking?,The seat or gate is damaged.,The valve is not lubricated properly. ,0.6222509741783142
+258,15,What is the cause if the fully-closed valve is leaking?,The seat or gate is damaged.,Excessive force is required to open and close the valve. ,0.6217999458312988
+259,15,What is the cause if the fully-closed valve is leaking?,The seat or gate is damaged.,"Consult the factory. 
+",0.6151333451271057
+260,15,What is the cause if the fully-closed valve is leaking?,The seat or gate is damaged.,Excessive force is required to open and close the valve. ,0.6120747923851013
+261,15,What is the cause if the fully-closed valve is leaking?,The seat or gate is damaged.,The packing is too tight. ,0.6108291149139404
+262,15,What is the cause if the fully-closed valve is leaking?,The seat or gate is damaged.,The fully-closed valve is leaking past the seat. ,0.6045076251029968
+263,15,What symptom can I see if the seal in the valve is not compressed correctly?,The fully-closed valve is leaking past the seat.,Excessive force is required to open and close the valve. ,0.6530625820159912
+264,15,What symptom can I see if the seal in the valve is not compressed correctly?,The fully-closed valve is leaking past the seat.,"See Lubrication requirements in the Maintenance section. 
+",0.6498215794563293
+265,15,What symptom can I see if the seal in the valve is not compressed correctly?,The fully-closed valve is leaking past the seat.,The valve is not lubricated properly. ,0.6463760137557983
+266,15,What symptom can I see if the seal in the valve is not compressed correctly?,The fully-closed valve is leaking past the seat.,The fully-closed valve is leaking past the seat. ,0.6374387145042419
+267,15,What symptom can I see if the seal in the valve is not compressed correctly?,The fully-closed valve is leaking past the seat.,The seal is not compressed correctly. ,0.6265525817871094
+268,15,What symptom can I see if the seal in the valve is not compressed correctly?,The fully-closed valve is leaking past the seat.,Excessive force is required to open and close the valve. ,0.6249109506607056
+269,15,What symptom can I see if the seal in the valve is not compressed correctly?,The fully-closed valve is leaking past the seat.,"Set the stroke. 
+",0.6206938028335571
+270,15,What symptom can I see if the seal in the valve is not compressed correctly?,The fully-closed valve is leaking past the seat.,"Consult the factory. 
+",0.6184746026992798
+271,15,What symptom can I see if the seal in the valve is not compressed correctly?,The fully-closed valve is leaking past the seat.,The packing is too tight. ,0.6148613691329956
+272,15,What symptom can I see if the seal in the valve is not compressed correctly?,The fully-closed valve is leaking past the seat.,Excessive force is required to open and close the valve. ,0.5943655967712402
+273,16,"What is material of handweel in C67 Bi-Directional Knife Gate Valve, S Series?",Ductile iron,2 ,0.5279607176780701
+274,16,"What is material of handweel in C67 Bi-Directional Knife Gate Valve, S Series?",Ductile iron,Grease fitting ,0.5113468170166016
+275,16,"What is material of handweel in C67 Bi-Directional Knife Gate Valve, S Series?",Ductile iron,Mild steel plated ,0.5103648900985718
+276,16,"What is material of handweel in C67 Bi-Directional Knife Gate Valve, S Series?",Ductile iron,3 ,0.5036516785621643
+277,16,"What is material of handweel in C67 Bi-Directional Knife Gate Valve, S Series?",Ductile iron,"
+",0.5006860494613647
+278,16,"What is material of handweel in C67 Bi-Directional Knife Gate Valve, S Series?",Ductile iron,1 ,0.49223339557647705
+279,16,"What is material of handweel in C67 Bi-Directional Knife Gate Valve, S Series?",Ductile iron,Yoke assembly ,0.49097180366516113
+280,16,"What is material of handweel in C67 Bi-Directional Knife Gate Valve, S Series?",Ductile iron,Stainless steel ,0.4838072657585144
+281,16,"What is material of handweel in C67 Bi-Directional Knife Gate Valve, S Series?",Ductile iron,Ductile iron ,0.472473680973053
+282,16,"What is material of handweel in C67 Bi-Directional Knife Gate Valve, S Series?",Ductile iron,"Carbon steel 
+",0.47191691398620605
+283,16,What is the material of Yoke assembly in C67 Valve R Series?,Carbon steel,3 ,0.48724567890167236
+284,16,What is the material of Yoke assembly in C67 Valve R Series?,Carbon steel,2 ,0.4823283553123474
+285,16,What is the material of Yoke assembly in C67 Valve R Series?,Carbon steel,1 ,0.47907447814941406
+286,16,What is the material of Yoke assembly in C67 Valve R Series?,Carbon steel,Mild steel plated ,0.47897472977638245
+287,16,What is the material of Yoke assembly in C67 Valve R Series?,Carbon steel,Stainless steel ,0.47758930921554565
+288,16,What is the material of Yoke assembly in C67 Valve R Series?,Carbon steel,Ductile iron ,0.4768417477607727
+289,16,What is the material of Yoke assembly in C67 Valve R Series?,Carbon steel,Yoke assembly ,0.4741554856300354
+290,16,What is the material of Yoke assembly in C67 Valve R Series?,Carbon steel,,0.46275240182876587
+291,16,What is the material of Yoke assembly in C67 Valve R Series?,Carbon steel,"Carbon steel 
+",0.4607376456260681
+292,16,What is the material of Yoke assembly in C67 Valve R Series?,Carbon steel,S Series ,0.45661473274230957
+293,17,What is the solution of the problem with bad brake?,Remove brake hub &amp; try to run,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL. ,0.4791453778743744
+294,17,What is the solution of the problem with bad brake?,Remove brake hub &amp; try to run,Bad Brake ,0.4788016080856323
+295,17,What is the solution of the problem with bad brake?,Remove brake hub &amp; try to run,"Remove brake hub &amp; try to run 
+",0.47754591703414917
+296,17,What is the solution of the problem with bad brake?,Remove brake hub &amp; try to run,Wrong voltage ,0.4512064456939697
+297,17,What is the solution of the problem with bad brake?,Remove brake hub &amp; try to run,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL. ,0.4503936767578125
+298,17,What is the solution of the problem with bad brake?,Remove brake hub &amp; try to run,"Check power supply &amp; make appropriate changes 
+",0.4495963454246521
+299,17,What is the solution of the problem with bad brake?,Remove brake hub &amp; try to run,ACTUATOR WILL NOT OPEN OR CLOSE COMPLETELY. VALVE OSCILLATES.  ,0.4432511329650879
+300,17,What is the solution of the problem with bad brake?,Remove brake hub &amp; try to run,Torque trip delay set too low on K Series ,0.43748003244400024
+301,17,What is the solution of the problem with bad brake?,Remove brake hub &amp; try to run,"Adjust torque switch screw 
+",0.43594223260879517
+302,17,What is the solution of the problem with bad brake?,Remove brake hub &amp; try to run,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL. ,0.43153101205825806
+303,17,What to do if the motor brake out of adjustment?,Motor brake out of adjustment.,ACTUATOR WILL NOT OPEN OR CLOSE COMPLETELY. VALVE OSCILLATES.  ,0.5397450923919678
+304,17,What to do if the motor brake out of adjustment?,Motor brake out of adjustment.,Motor brake out of adjustment. ,0.5340747237205505
+305,17,What to do if the motor brake out of adjustment?,Motor brake out of adjustment.,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL. ,0.5324511528015137
+306,17,What to do if the motor brake out of adjustment?,Motor brake out of adjustment.,Bad Brake ,0.5311554670333862
+307,17,What to do if the motor brake out of adjustment?,Motor brake out of adjustment.,"Adjust brake 
+",0.5308127403259277
+308,17,What to do if the motor brake out of adjustment?,Motor brake out of adjustment.,"Remove brake hub &amp; try to run 
+",0.5303054451942444
+309,17,What to do if the motor brake out of adjustment?,Motor brake out of adjustment.,Wrong voltage ,0.5114616751670837
+310,17,What to do if the motor brake out of adjustment?,Motor brake out of adjustment.,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL. ,0.5108679533004761
+311,17,What to do if the motor brake out of adjustment?,Motor brake out of adjustment.,"Check power supply &amp; make appropriate changes 
+",0.5097765922546387
+312,17,What to do if the motor brake out of adjustment?,Motor brake out of adjustment.,Gear damage or sheared pin ,0.5077875852584839
+313,17,"What is the problem if motor runs, but output shaft does not rotate?",Gear damage or sheared pin,Gear damage or sheared pin ,0.7184315919876099
+314,17,"What is the problem if motor runs, but output shaft does not rotate?",Gear damage or sheared pin,MOTOR RUNS BUT OUTPUT SHAFT DOES NOT ROTATE. ,0.7173974514007568
+315,17,"What is the problem if motor runs, but output shaft does not rotate?",Gear damage or sheared pin,"Contact ICI or nearest distributor 
+",0.7155584096908569
+316,17,"What is the problem if motor runs, but output shaft does not rotate?",Gear damage or sheared pin,ACTUATOR WILL NOT OPEN OR CLOSE COMPLETELY. VALVE OSCILLATES.  ,0.6324349045753479
+317,17,"What is the problem if motor runs, but output shaft does not rotate?",Gear damage or sheared pin,Thermal overload activated ,0.6315323710441589
+318,17,"What is the problem if motor runs, but output shaft does not rotate?",Gear damage or sheared pin,"Allow motor to cool, actuator will automatically reset 
+",0.6296323537826538
+319,17,"What is the problem if motor runs, but output shaft does not rotate?",Gear damage or sheared pin,ACTUATOR WILL NOT OPEN OR CLOSE COMPLETELY. VALVE OSCILLATES.  ,0.6279231905937195
+320,17,"What is the problem if motor runs, but output shaft does not rotate?",Gear damage or sheared pin,Torque trip delay set too low on K Series ,0.6263007521629333
+321,17,"What is the problem if motor runs, but output shaft does not rotate?",Gear damage or sheared pin,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL. ,0.6262346506118774
+322,17,"What is the problem if motor runs, but output shaft does not rotate?",Gear damage or sheared pin,"Adjust torque switch screw 
+",0.6231626272201538
+323,17,which symptoms could be seen in case of wrong voltage?,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL.,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL. ,0.5956753492355347
+324,17,which symptoms could be seen in case of wrong voltage?,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL.,Wrong voltage ,0.5882525444030762
+325,17,which symptoms could be seen in case of wrong voltage?,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL.,"Check power supply &amp; make appropriate changes 
+",0.584314227104187
+326,17,which symptoms could be seen in case of wrong voltage?,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL.,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL. ,0.5677123069763184
+327,17,which symptoms could be seen in case of wrong voltage?,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL.,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL. ,0.5638505220413208
+328,17,which symptoms could be seen in case of wrong voltage?,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL.,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL. ,0.5628650188446045
+329,17,which symptoms could be seen in case of wrong voltage?,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL.,Thermal overload activated ,0.5602075457572937
+330,17,which symptoms could be seen in case of wrong voltage?,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL.,"Allow motor to cool, actuator will automatically reset 
+",0.5560342669487
+331,17,which symptoms could be seen in case of wrong voltage?,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL.,Power not on ,0.554129421710968
+332,17,which symptoms could be seen in case of wrong voltage?,ACTUATOR DOES NOT RESPOND TO CONTROL SIGNAL.,Bad Brake ,0.55320143699646

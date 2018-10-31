@@ -43,11 +43,11 @@ def vectorize_tables(table_path,elma_path,table_vect_save_path = r'tmp/table_vec
                 title = table['title']
                 headerPathes = " ".join(table['headerPath'])
 
-                row_name = ''
-                if table['name_entity_col'] != None :
-                    row_name = table['rows'][row_indx][table['name_entity_col']]
+                # row_name = ''
+                # if table['name_entity_col'] != None :
+                #     row_name = table['rows'][row_indx][table['name_entity_col']]
 
-                cell_full = " ".join([col_name, row_name, cell, title, headerPathes])
+                cell_full = " ".join([col_name, cell, title, headerPathes]) #row_name
 
                 tokens = word_tokenize(cell_full.lower())
                 tokens_input.append(tokens)
